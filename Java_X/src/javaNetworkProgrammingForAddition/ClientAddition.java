@@ -1,7 +1,5 @@
 package javaNetworkProgrammingForAddition;
 
-// WRONG CODE
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -44,6 +42,7 @@ public class ClientAddition {
 		reader.close();
 		writer.close();
 		socket.close();
+		stdReader.close();
 			
 		} catch (IOException e) {
 			System.out.println("Error is comming: " + e.getMessage());
