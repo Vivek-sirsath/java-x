@@ -4,7 +4,8 @@
  * 2) accept() method is called by the server to validate incoming request to the socket.
  *    this method returns a socket object of Socket Class.
  *    After accepting, Server gets new object 'socket' bound to same local port '5000' 
- * 
+ *    
+ * 3) Network Programming is also known as Socket Programming.
  */
 
 
