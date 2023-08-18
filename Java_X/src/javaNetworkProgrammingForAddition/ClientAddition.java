@@ -1,4 +1,6 @@
-package javaNetworkProgramming;
+package javaNetworkProgrammingForAddition;
+
+// WRONG CODE
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -6,7 +8,7 @@ import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.net.Socket;
 
-public class Client {
+public class ClientAddition {
 
 	public static void main(String[] args) {
 
@@ -29,9 +31,14 @@ public class Client {
 		// NOTE:- Here we can use Scanner class as well to accept the user input.
 		
 		// Implementing the methods to exchange data
-		System.out.println("Hey, please enter your name:");
-		String userInput = stdReader.readLine();
-		writer.println(userInput);
+		System.out.println("Hey, please enter first number:");
+		String firstNum = stdReader.readLine();
+		writer.println(firstNum);
+		System.out.println("Server: " + reader.readLine());
+		
+		System.out.println("Hey, please enter second number:");
+		String secondNum = stdReader.readLine();
+		writer.println(secondNum);
 		System.out.println("Server: " + reader.readLine());
 			
 		reader.close();

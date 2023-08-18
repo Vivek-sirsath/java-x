@@ -8,8 +8,9 @@
  * 3) Network Programming is also known as Socket Programming.
  */
 
+// WRONG CODE
 
-package javaNetworkProgramming;
+package javaNetworkProgrammingForAddition;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -18,7 +19,7 @@ import java.io.PrintWriter;
 import java.net.ServerSocket;
 import java.net.Socket;
 
-public class Server {
+public class ServerAddition {
 
 	public static void main(String[] args) {
 
@@ -38,9 +39,13 @@ public class Server {
 			PrintWriter writer = new PrintWriter(socket.getOutputStream(), true);
 			
 			// Implementing methods to exchange data
-			String input = reader.readLine();
-			System.out.println("Client: " + input);
-			writer.println("Hello, " + input);
+			String firstNumber = reader.readLine();
+			System.out.println("Client: " + firstNumber);
+			writer.println("Ok");
+			
+			String secondNumber = reader.readLine();
+			System.out.println("Client: " + secondNumber);
+			writer.println("Addition is: " +  firstNumber+secondNumber);
 			
 			writer.close();
 			reader.close();
