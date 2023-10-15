@@ -21,10 +21,7 @@ public class Model_K_CP_First_OFF {
 		String pokaYoke = "Working";
 		String hblGauge = "free";
 		String deburring = "Proper";
-		String visualCheck = "Visually OK";
-		DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm:ss");  
-		 LocalDateTime now = LocalDateTime.now();  
-		   System.out.println("I am Vivek, working on this date - " + dtf.format(now));  
+		String visualCheck = "Visually OK"; 
 
 		if ((maxTopRadius - minTopRadius <= topRadiusVariationExpected)
 				&& (topRadiusVariationExpected > 0 && topRadiusVariationExpected <= 0.30)
