@@ -1,6 +1,6 @@
 package examplePackage;
 
-public class Array8LargestNumberInArray {
+public class Array8_LargestNumberInArray {
 
 	public static void main(String[] args) {
 

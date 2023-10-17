@@ -1,6 +1,6 @@
 package examplePackage;
 
-public class Array6ThreeDimentional {
+public class Array6_ThreeDimentional {
 
 	public static void main(String[] args) {
 

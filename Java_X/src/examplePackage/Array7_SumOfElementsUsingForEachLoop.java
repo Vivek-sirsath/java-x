@@ -1,6 +1,6 @@
 package examplePackage;
 
-public class Array7SumOfElementsUsingForEachLoop {
+public class Array7_SumOfElementsUsingForEachLoop {
 
 	public static void main(String[] args) {
 		
