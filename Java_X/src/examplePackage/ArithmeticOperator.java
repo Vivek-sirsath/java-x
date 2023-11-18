@@ -18,7 +18,10 @@ public class ArithmeticOperator {
 		result1 = numberFour + numberFive;
 		System.out.println("Addition is " + result1);
 		
-		
+		int x = 10;
+		int y = 3;
+		int res = x % y;
+		System.out.println("Modulus Result is: " + res); // 1
 
 	}
 
