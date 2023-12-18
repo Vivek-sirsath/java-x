@@ -1,6 +1,5 @@
 package trickyPackage;
 
-//10nd Dec 2023 Screenshots (TrickyCode 010 to )
 //Q. What will happen when you compile and run the following code
 //Answer: The variable 'var1' is set to elements[0]
 
