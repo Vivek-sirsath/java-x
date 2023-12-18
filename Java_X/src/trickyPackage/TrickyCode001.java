@@ -1,8 +1,9 @@
 
-// Q. Will this code compile?
-// Answer - YES
-
 package trickyPackage;
+
+//2nd Dec 2023 Screenshots (TrickyCode 001 to 009)
+//Q. Will this code compile?
+//Answer - YES
 
 public class TrickyCode001 extends Exception{
 	
