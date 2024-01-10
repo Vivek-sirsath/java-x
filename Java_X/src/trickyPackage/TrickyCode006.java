@@ -1,7 +1,8 @@
 package trickyPackage;
 
 /* Q. What will happen when we compile and run the following code?
- * Answer - d
+ * Answer - d)
+ * 
  * a) ==equals
  * b) equals
  * c) No Output
@@ -21,7 +22,7 @@ public class TrickyCode006 {
 			System.out.print("==");
 		}
 
-		if (b1.equals(b2)) {                // error at this line
+		if (b1.equals(b2)) {                // compilation error at this line
 			System.out.print("equals");
 		}
 
