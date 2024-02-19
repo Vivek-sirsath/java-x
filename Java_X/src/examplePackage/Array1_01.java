@@ -13,7 +13,7 @@ public class Array1_01 {
 //		a[6] = 6; // java.lang.ArrayIndexOutOfBoundsException
 
 		for (int i = 0; i <= 4; i++) {
-			System.out.println(a[i]); // 1 2 3 0 0
+			System.out.println(a[i]); // 11 22 33 0 0
 		}
 
 	}
