@@ -11,7 +11,7 @@ public class Array7_SumOfElementsUsingForEachLoop {
 		for(int number : numbers) {
 			sum += number;
 		}
-		System.out.println("Sum of all the elements is:- " + sum);
+		System.out.println("Sum of all the elements is:- " + sum); // 193
 	}
 
 }
