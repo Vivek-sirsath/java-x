@@ -23,7 +23,7 @@ public class AssignmentOperator2 {
 
 //        Explanation:
 //        Initially, a is 10 and b is 2. 
-//        When a /= b; is executed, it performs a = a / b, which is a = 10 / 2, resulting in a being 5.
+//        When a /= b; is executed, it performs a = a / b, which is a = 10 / 2, resulting in a becomes 5.
 
 	}
 
